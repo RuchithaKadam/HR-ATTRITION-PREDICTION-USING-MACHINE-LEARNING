@@ -11,25 +11,41 @@ Predict employee attrition (Yes/No) using historical HR data and identify the ke
 📂 Dataset Description
 
 The dataset contains employee-related features such as:
-• Age
-• Job Role
-• Department
-• Monthly Income
-• Job Satisfaction
-• Work Experience
-• Overtime
-• Distance from Home
-• Education Level
-• Performance Rating
-• And other HR-related attributes
+  • Age
+  
+  • Job Role
+  
+  • Department
+  
+  • Monthly Income
+  
+  • Job Satisfaction
+  
+  • Work Experience
+  
+  • Overtime
+  
+  • Distance from Home
+  
+  • Education Level
+  
+  • Performance Rating]=
+  
+  • And other HR-related attributes
+  
 Target Variable:
+
 • Attrition (Yes = 1, No = 0)
 
 🔧 Project Workflow
 1️⃣ Data Preprocessing
+
 • Removed unnecessary columns
+
 • Handled missing values
+
 • Converted categorical variables using encoding techniques
+
 • Treated class imbalance using SMOTE
 • Standardized numerical features
 
