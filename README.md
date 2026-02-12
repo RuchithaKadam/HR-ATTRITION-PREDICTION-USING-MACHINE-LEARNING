@@ -84,9 +84,7 @@ The Random Forest model achieved the highest accuracy with strong generalization
 • Improve workforce planning
 • Reduce hiring and training costs
 
-"""
 Project: HR Attrition Prediction
 Author: Ruchitha M
 Created: 2026
 Description: Machine learning model to predict employee attrition.
-"""
