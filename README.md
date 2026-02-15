@@ -86,12 +86,15 @@ Models were evaluated using:
 
     • ROC-AUC Curve
 
-| Model                        | Train Score | Test Accuracy |
-| ---------------------------- | ----------- | ------------- |
-| Random Forest Classifier     | 1.0000      | 0.9530        |
-| Gradient Boosting Classifier | 0.9903      | 0.9092        |
-| Decision Tree (Tuned)        | 0.9913      | 0.9011        |
-| Logistic Regression          | 0.8746      | 0.8541        |
+| Model                          | Accuracy	| Train_Score | Test_Score |
+| ------------------------------ | -------- | ----------- | ---------- |
+| RandomForestClassifier	       | 0.936791	| 1.000000	  | 0.936791   |
+| DecisionTreeClassifier	       | 0.886548	| 1.000000	  | 0.886548   |
+|	GradientBoostingClassifier     | 0.884927	| 0.972418	  | 0.884927   |
+|	DecisionTreeClassifier(Tuning) | 0.852512	| 0.950243	  | 0.852512   |
+|	KNeighborsClassifier	         | 0.816856	| 0.888048	  | 0.816856   |
+|	LogisticRegression	           | 0.747164	| 0.756625	  | 0.747164   |
+
 
 
 The Random Forest model achieved the highest accuracy with strong generalization performance.
